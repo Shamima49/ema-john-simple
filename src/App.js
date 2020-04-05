@@ -39,7 +39,7 @@ function App(props) {
             <Route path="/product/:productKey">
               <ProductDetail></ProductDetail>
             </Route>
-            <Route path="/login">
+            <Route path="/login">  
               <Login></Login>
             </Route>
             <PrivateRoute path="/shipment">

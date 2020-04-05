@@ -18,7 +18,7 @@ export const AuthContextProvider = (props) =>{
 export const useAuth = () => useContext(AuthContext);
 
 export const PrivateRoute = ({ children, ...rest }) => {
-    const auth = useAuth();
+    const auth = useAuth();  
     return (
       <Route
         {...rest}
@@ -56,7 +56,7 @@ const Auth = () => {
         })
         .catch(err => {
             setUser(null);
-            return err.mesage;
+            return err.message;
         })
     }
     const signOut = () => {

@@ -3,7 +3,7 @@ import Auth from './useAuth';
 
 const Login = () => {
     const auth = Auth();
-    const handleSignIn = () =>{
+    const handleSignIn = () =>{  
         auth.singInWithGoogle()
         .then(res => {
             window.location.pathname = '/review';
@@ -14,7 +14,7 @@ const Login = () => {
         .then(res => {
             window.location.pathname = '/';
         });
-    }
+    }  
     return (
         <div>
             <h1>Join the Party !!!</h1>
