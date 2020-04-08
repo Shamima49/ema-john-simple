@@ -20,7 +20,7 @@ const Review = () => {
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart);
         //console.log(productKeys);
-        fetch('http://localhost:5000/getProductsByKey', {
+        fetch('https://powerful-dusk-04526.herokuapp.com/getProductsByKey', {
             method: 'POST', 
             headers: {
               'Content-Type': 'application/json'

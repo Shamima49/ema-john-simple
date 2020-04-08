@@ -6,7 +6,7 @@ const Inventory = () => {
     const handleAddInventory = () => {
     //     const product = fakeData[0];
     //     console.log('before post', fakeData.length);
-    // fetch("http://localhost:5000/addProduct", {
+    // fetch("https://powerful-dusk-04526.herokuapp.com/addProduct", {
     //         method: 'POST', 
     //         headers: {
     //           'Content-Type': 'application/json'
